@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    border: 0.1rem solid black;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    width: 100%;
+    height: 9.5rem;
+    text-decoration: none;
+    background-color: rgb(21, 75, 192);
+    border-left: 1.5rem solid rgb(4, 4, 70);
+    border-bottom: 0.5rem solid rgb(4, 4, 70);
+}
+.title {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 145, 255);
+    font-size: 0.8;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(2, 8, 44);
+    -webkit-text-fill-color: white;
+}
+.li{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.li::after{
+    
+    content: "|";
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: darkblue;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: flex-end;
+  padding-left: 10rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 5rem;
+}
+.c1,.c2{
+    display: flex;
+    width: 30rem;
+    height: auto;
+    min-height: 15rem;
+    margin-top: 3rem;
+    background-color: rgb(14, 103, 177);
+    border-radius: 0.2rem;
+    border-left: 0.5rem solid rgb(4, 4, 70);
+}
+.container p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+.content{
+    font-size: 0.5rem;
+}
+.container-figure{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.figure img{
+    margin-top: 1.5rem;
+    width: 70%;
+    height: auto;
+    border-radius: 0.6rem;
+    border: 0.5rem solid rgb(39, 64, 109);
+    
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    rem;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 9.5rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(21, 75, 192);
+    border-left: 1.5rem solid rgb(4, 4, 70);
+    border-bottom: 0.5rem solid rgb(4, 4, 70);
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.titletwo{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    color: rgb(0, 145, 255);
+    font-size: 0.8;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(2, 8, 44);
+    -webkit-text-fill-color: white;
+}

@@ -1,0 +1,28 @@
+.list{
+    padding-left: 60rem;
+}
+.footer{
+
+    align-items: flex-end;
+}
+.container-figure{
+    flex-direction: column;
+}
+.figure img{
+    width: 30rem;
+    height: 40rem;
+}
+.figure{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.container{
+    padding-left: 3rem;
+}
+.c1,.c2{
+    width: auto;
+    height: 10rem;
+    padding-right: ;
+}
